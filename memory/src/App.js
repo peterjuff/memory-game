@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Card from './components/card/card.js';
 import logo from './logo.svg';
+import designs from './design.json';
 import './App.css';
 
 class App extends Component {
