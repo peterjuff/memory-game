@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Card from './components/card/card.js';
+import Design from './components/design/design.js';
 import logo from './logo.svg';
-import designs from './design.json';
+import design from './design.json';
 import './App.css';
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Memory Game</h1>
         </header>
-        <Card />
+        <Design />
         <p className="App-intro"></p>
       </div>
     );
