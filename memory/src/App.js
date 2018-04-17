@@ -26,6 +26,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Memory Game</h1>
         </header>
+        <div>
         {this.state.design.map(design => (
           <Design image = {design.image}
           id = {design.id}
@@ -33,7 +34,7 @@ class App extends Component {
           
 
         ))}
-
+        </div>
         <p className="App-intro"></p>
       </div>
     );
