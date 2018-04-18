@@ -2,11 +2,16 @@ import React, {Component} from "react";
 import './design.css';
 
 const Design = props => (
+  <div className="fr">  
     <div className="container">
-    <div>
+    
         <img className="design" src = {props.image} onClick={()=>props.clickImage(props.id)}/>
     </div>
-    </div>
+    <span onClick={() => props.design(props.id)} className="remove">
+      
+    </span> 
+   </div> 
+
 )
 
 

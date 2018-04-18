@@ -12,12 +12,13 @@ class App extends Component {
   };
 
   clickImage = id => {
+    
+    const designs= this.state.design.sort(()=>(Math.random()-0.5));
     const design = this.state.design.filter(design => design.id !==id);
     this.setState({ clickCounts: 1});
     console.log(this.state.clickCounts);
   }
-
-
+ 
 
 
   render() {
